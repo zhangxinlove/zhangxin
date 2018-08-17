@@ -1,5 +1,6 @@
 
 body {
+    margin:0;
     background-color: #68cdd5;
 }
 
@@ -9,12 +10,10 @@ body {
 }
 
 .asd {
-    margin-left: 5px;
-    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 80px;
     float: left;
-    position: absolute;
-    left: 40px;
-    bottom: 80px;
+    text-align: center;
 }
 
 .zxc {
@@ -23,12 +22,10 @@ body {
 }
 
 .qwe {
-    margin-right: 5px;
-    margin-bottom: 10px;
-    /* float: right; */
-    position: absolute;
-    right: 40px;
-    bottom: 80px;
+    margin-right: 40px;
+    margin-top: 80px;
+    float: right;
+   text-align: center;
 }
 
 p {
@@ -36,34 +33,28 @@ p {
     /* font-family: "宋体", sans-serif; */
     font-size: 15px;
     line-height: 1.5em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-top: 80px;
 }
-
-.box1 {
-    color: white;
-    position: absolute;
-    left: 40px;
-    bottom: 60px;
-    font-size: 15px;
+.box1{
+    color:white;
+    font-size: 6px;
+   
 }
-
-.box2 {
-    color: white;
-    position: absolute;
-    right: 40px;
-    bottom: 60px;
-    font-size: 15px;
+.box{
+    color:white;
+    font-size: 6px;
+   
 }
 
 .back {
     width: 30px;
 }
 .tupian{
-    width:140px;
+    width:120px;
 }
 .tupian2{
-    width:60px;
+    width:40px;
 }
 
