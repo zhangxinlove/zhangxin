@@ -1,0 +1,69 @@
+
+body {
+    background-color: #68cdd5;
+}
+
+.acs {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.asd {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    float: left;
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+}
+
+.zxc {
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.qwe {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    /* float: right; */
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+}
+
+p {
+    color: white;
+    /* font-family: "宋体", sans-serif; */
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80px;
+}
+
+.box1 {
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    font-size: 15px;
+}
+
+.box2 {
+    color: white;
+    position: absolute;
+    right: 40px;
+    bottom: 60px;
+    font-size: 15px;
+}
+
+.back {
+    width: 30px;
+}
+.tupian{
+    width:140px;
+}
+.tupian2{
+    width:60px;
+}
+
