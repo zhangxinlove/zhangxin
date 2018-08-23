@@ -151,6 +151,8 @@
         border-radius: 4px;
         margin-left:2%;
         display:inline-block;
+        position: fixed;
+        bottom: 0;
     }
     .phone{
         font-size:15px;
@@ -165,6 +167,9 @@
         border-radius: 4px;
         margin-left:1%;
         display:inline-block;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
     }
     .year2{
         color:#cccccc;
