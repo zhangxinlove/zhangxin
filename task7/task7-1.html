@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="task7-1.css">
+</head>
+<body>
+    <header>
+        <img class="three" src="three.png" alt="">
+    </header>
+    <button class="last">
+        <span class="game">上次游戏：捉鬼猜词版</span>
+        <span>&gt</span>
+    </button>
+    <div class="box">
+        <div>
+            <span>捉鬼游戏</span>
+        </div>
+        <button onclick="jump()" type="submit">简化版</button>
+        <p>有1133个用户正在玩此游戏</p>
+        <button onclick="jump()" type="submit" class="button">
+            <span>猜词版</span>
+            <div id="triangle"></div>
+        </button>
+        <p>有1133个用户正在玩此游戏</p>
+        <button onclick="jump()" type="submit">白痴版</button>
+        <p>有1133个用户正在玩此游戏</p>
+        <img src="bot.png" alt="">
+    </div>
+    <script>
+       function jump(){
+           window.open("task7-2.html")
+           alter(window.location);
+       }
+    </script>
+</body>
+</html>
