@@ -141,4 +141,5 @@ audio{
    width: 60px;
    height: 60px;
    background:url(orange.png) no-repeat center bottom;
+   margin:0;
 }
