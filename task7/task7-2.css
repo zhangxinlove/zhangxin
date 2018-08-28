@@ -44,7 +44,7 @@ header div{
     width:0;
     height:0;
     position:absolute;
-    top:8rem;
+    top:6rem;
     left:10%;
     border-top:1.8rem solid #b9e9f5;
     border-right:0.9rem solid transparent;
@@ -61,11 +61,11 @@ p{
     height:20vw;
     background-color:#f5c97b;
     color:#6a7b7f;
-    margin:6.65%;
+    margin:6%;
     display:inline-block;
     float:left;
     position:relative;
-    border:5px white solid;
+    border:2px white solid;
 }
 .rectangle1 .la{
     position:absolute;
@@ -135,11 +135,12 @@ button{
     list-style-type:none;
 }
 audio{
-   
+   display:none;
 }
-.btn-audio{
-   width: 60px;
-   height: 60px;
-   background:url(orange.png) no-repeat center bottom;
-   margin:0;
+#music{
+    width:52px;
+    height:52px;
+    background:url(orange.png);
+    border:none;
 }
+
