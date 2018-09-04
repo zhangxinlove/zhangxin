@@ -1,0 +1,174 @@
+body{
+    margin:0;
+    background-color:#fafafa;
+}
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    width:100%;
+    height:3rem;
+}
+.head span{
+    position:absolute;
+    left:10%;
+    font-size:1rem;
+    color:#29b078;
+}
+.head img{
+    position:absolute;
+    right:10%;
+    width:10%;
+}
+.head1{
+    width:100%;
+    height:4rem;
+    background-color:#29b078;
+    white-space: nowrap;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom:0.2rem solid #29b078;
+}
+.navbar-brand{
+    margin-left:10%;
+    color:white;
+    display:inline-block;
+}
+.nav-link{
+    color:white!important;
+    margin-left:3rem;
+    text-decoration: none;
+}
+.head1 nav{
+    background-color:#29b078!important;
+    padding:0;
+    position:absolute;
+    right:10%;
+}
+.nav-item:hover .white{
+    display:block;
+}
+.white{
+    width:4rem;
+    height:0.3rem;
+    display:none;
+    margin-left:2.5rem;
+    position:absolute;
+    top:3.1rem;
+}
+div>.first{
+    width:80%;
+    height:80px;
+    border-bottom:1px solid #999;
+    line-height:80px;
+}
+.box1{
+    text-align:center;
+}
+.first{
+    margin-left:10%;
+}
+#company{
+    width:100%;
+}
+.name a{
+    color:#29b078;
+}
+#corperation2 li{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+h5{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+i{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border:1px solid orange;
+    display:inline-block;
+}
+#corperation2{
+    background-color:#fff;
+    border:1px solid #999;
+    padding-right:40px;
+}
+.name:hover i{
+    background-color:orange;
+}
+.name:hover a{
+    color:orange;
+}
+.box2{
+   
+}
+.year3{
+    display:flex;
+    align-items: center;
+    border:1px solid #999;
+    background-color:#fff;
+    color:#999;
+    padding:10px;
+}
+.year3 p{
+    text-indent:2em;
+}
+.content6{
+    border:1px solid #999;
+    background-color:#fff;
+    color:#999;
+    padding:10px;
+}
+.content6 p{
+    text-indent:2em;
+}
+footer{
+    background-color:#29b078;
+    width:100%;
+    margin:0;
+    color:white;
+    margin-top:50px;
+}
+.foot4{
+    display:flex;
+    justify-content:space-around;;
+    align-items:center;
+    color:white;
+}
+.box4{
+    padding-top:20px;
+}
+.box4 p{
+    padding-bottom:20px;
+}
+.foot span{
+    background-color:#fff;
+    padding-left:1px;
+    height:5px;
+    margin:0 5px;
+}
+.last{
+    text-align:center;
+}
+.box1 li{
+    list-style: none;
+}
+.phone span{
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color:#999;
+    display:inline-block;
+}
+.box4 a{
+    color:#fff;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
