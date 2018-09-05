@@ -47,8 +47,10 @@ body{
     position:absolute;
     right:10%;
 }
+@media screen and (min-width: 768px){
 .nav-item:hover .white{
     display:block;
+   }
 }
 .white{
     width:4rem;
@@ -78,7 +80,7 @@ h3{
     margin-top:5rem;
     border-left:1px  dashed #999;
 }
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .content1{
         border:none;
     }
@@ -217,6 +219,10 @@ footer{
 .box4 p{
     padding-bottom:20px;
 }
+.foot{
+    display:flex;
+    justify-content: space-between;
+}
 .foot span{
     background-color:#fff;
     padding-left:1px;
@@ -245,3 +251,32 @@ ul{
 li{
     list-style: none;
 }
+.qrcode:hover{
+    border:2px solid #999;
+}
+.qrcode{
+    box-sizing: border-box;
+    width:90px;
+}
+.navbar-toggler{
+    margin-right:10%;
+}
+.navbar-nav{
+    margin-left:auto;
+    margin-right:10%;
+}
+.bg-dark{
+    background-color:#29b078!important;
+}
+.nav-link{
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .white{
+        display:none;
+    }
+}
+
+
+
+

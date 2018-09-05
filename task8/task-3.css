@@ -47,9 +47,11 @@ body{
     position:absolute;
     right:10%;
 }
-.nav-item:hover .white{
-    display:block;
-}
+@media screen and (min-width: 768px){
+    .nav-item:hover .white{
+        display:block;
+       }
+    }
 .white{
     width:4rem;
     height:0.3rem;
@@ -171,4 +173,24 @@ ul{
 }
 li{
     list-style: none;
+}
+.qrcode:hover{
+    border:2px solid #999;
+}
+.qrcode{
+    box-sizing: border-box;
+    width:90px;
+}
+.navbar-toggler{
+    margin-right:10%;
+}
+.navbar-nav{
+    margin-left:auto;
+    margin-right:10%;
+}
+.bg-dark{
+    background-color:#29b078!important;
+}
+.nav-link{
+    text-align: center;
 }
