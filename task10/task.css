@@ -1,0 +1,238 @@
+body{
+    margin:0;
+}
+header{
+    background-color:blue;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    height:60px;
+}
+.head>a{
+    color:white;
+    text-decoration: none;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    padding:10px;
+}
+header span{
+    margin-left:5%;
+}
+.phone{
+    font-size:10px;
+}
+.head{
+    margin-right:5%;
+}
+.head>a:hover{
+    background:#fff;
+    color:black;
+}
+.box1{
+    background:#f9f9f9;
+    height:80px;
+    display:flex;
+    align-items: center;
+}
+.box1>div{
+    position: absolute;
+    right:5%;
+}
+.box1>div>button{
+    padding:5px;
+    background:white;
+    box-shadow:1px 1px 1px #e6e6e6;
+    border:1px solid transparent;
+    border-radius: 4px;
+}
+.box1>div>button:hover{
+    background-color:blue;
+    color:white;
+}
+.step1>p{
+    text-align: center;
+}
+.step2>p{
+    text-align: center;
+}
+.step3>p{
+    text-align: center;
+}
+.step4>p{
+    text-align: center;
+}
+.step1:hover span{
+    background:orange;
+}
+.step1:hover p{
+    color:orange;
+}
+.step2:hover span{
+    background:orange;
+}
+.step2:hover p{
+    color:orange;
+}
+.step3:hover span{
+    background:orange;
+}
+.step3:hover p{
+    color:orange;
+}
+.step4:hover span{
+    background:orange;
+}
+.step4:hover p{
+    color:orange;
+}
+
+.box3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.line1{
+    width:100%;
+    height:4px;
+    background-color:#999;
+    display:inline-block;
+    margin-bottom:-20px;
+}
+.line2{
+    width:100%;
+    height:4px;
+    background-color:#999;
+    display:inline-block;
+    margin-bottom:-20px;
+}
+.circle{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color:#999;
+    display:inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-left:45%;
+}
+.circle2{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color:#999;
+    display:inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-left:45%;
+}
+.box2{
+    width:100%;
+}
+.step1{
+    display:inline-block;
+    padding:0;
+}
+.step2{
+    display:inline-block;
+    padding:0;
+}
+.step3{
+    display:inline-block;
+    padding:0;
+}
+.step4{
+    display:inline-block;
+    padding:0;
+}
+.box4{
+    margin-top:20px;
+    margin-left:5%;
+    margin-bottom:20px;
+}
+.content{
+    width:90%;
+    margin-left:5%;
+}
+.one{
+    display:flex;
+    align-items: center;
+    height:40px;
+    background:#e6e6e6;
+}
+.one>img{
+    margin-left:10px;
+}
+.one>span{
+    margin-left:10px;
+}
+.radio{
+    display:inline-block;
+}
+.btn-group{
+    display:inline-block;
+    position: absolute;;
+    right:5%;
+    top:10px;
+}
+.box3{
+    background:#fbfcff;
+    width:90%;
+    margin-left:5%;
+    position: relative;
+    padding:20px 0;
+}
+.word{
+    background:#fbfcff!important;
+    color:#999!important;
+    border-color:#999;
+}
+.btn{
+    padding:2px 5px;
+}
+.border{
+    border:1px solid #999;
+}
+label{
+    padding:2px 15px!important;
+}
+.radio1{
+    display:block;
+}
+.box5{
+    background:#fbfcff;
+    width:90%;
+    margin-left:5%;
+    position: relative;
+    padding:20px 0;
+}
+.box-type{
+    max-width:30px;
+    height:20px;
+}
+.input-type{
+    margin-bottom:10px;
+}
+.box6{
+    background:#fbfcff;
+    width:90%;
+    margin-left:5%;
+    position: relative;
+    padding:20px 0;
+}
+.box9{
+    width:100;
+    margin-top:100px;
+    margin-bottom:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.next{
+    background-color:red;
+    color:white;
+    width:150px;
+    height:50px;
+    border-radius: 5px;
+    border:1px solid red;
+}
