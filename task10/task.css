@@ -14,13 +14,15 @@ header{
     text-decoration: none;
     border-left:1px solid #fff;
     border-right:1px solid #fff;
-    padding:10px;
+    padding:17px;
+    height:60px;
+    display:inline-block;
 }
 header span{
     margin-left:5%;
 }
 .phone{
-    font-size:10px;
+    
 }
 .head{
     margin-right:5%;
@@ -40,7 +42,8 @@ header span{
     right:5%;
 }
 .box1>div>button{
-    padding:5px;
+    padding:3px;
+    margin-left:20px;
     background:white;
     box-shadow:1px 1px 1px #e6e6e6;
     border:1px solid transparent;
@@ -49,6 +52,20 @@ header span{
 .box1>div>button:hover{
     background-color:blue;
     color:white;
+}
+.step2{
+    margin-left:-8px;
+}
+.step3{
+    margin-left:-8px;
+}
+.step4{
+    margin-left:-8px;
+    margin-right:5%;
+}
+.step-type{
+    display:flex;
+    justify-content: flex-end;
 }
 .step1>p{
     text-align: center;
@@ -93,18 +110,18 @@ header span{
     align-items: center;
 }
 .line1{
-    width:100%;
+    width:120px;
     height:4px;
     background-color:#999;
     display:inline-block;
-    margin-bottom:-20px;
+    margin-bottom:4px;
 }
 .line2{
-    width:100%;
+    width:120px;
     height:4px;
     background-color:#999;
     display:inline-block;
-    margin-bottom:-20px;
+    margin-bottom:4px;
 }
 .circle{
     width:20px;
@@ -114,7 +131,7 @@ header span{
     display:inline-block;
     text-align: center;
     line-height: 20px;
-    margin-left:45%;
+    margin-left:-75px;
 }
 .circle2{
     width:20px;
@@ -124,7 +141,7 @@ header span{
     display:inline-block;
     text-align: center;
     line-height: 20px;
-    margin-left:45%;
+    margin-left:-73px;
 }
 .box2{
     width:100%;
@@ -166,7 +183,7 @@ header span{
 .one>span{
     margin-left:10px;
 }
-.radio{
+.type-box{
     display:inline-block;
 }
 .btn-group{
@@ -192,12 +209,6 @@ header span{
 }
 .border{
     border:1px solid #999;
-}
-label{
-    padding:2px 15px!important;
-}
-.radio1{
-    display:block;
 }
 .box5{
     background:#fbfcff;
@@ -235,4 +246,201 @@ label{
     height:50px;
     border-radius: 5px;
     border:1px solid red;
+}
+input[type=radio]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    outline: none;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    margin-top:4px;
+}
+input[type=radio]:checked+ label:after{
+    background-color:blue;
+    border-radius:100%;
+    content:"";
+    position: absolute;
+    left: 17px;
+    top: 6px;
+    display:inline-block;
+    height:12px;
+    margin:2px;
+    width:12px
+}
+.out[type=radio]:checked+ .out1:after{
+    background-color:blue;
+    border-radius:100%;
+    content:"";
+    position: absolute;
+    left: 27px;
+    top:26px;
+    display:inline-block;
+    height:12px;
+    margin:2px;
+    width:12px
+}
+.in[type=radio]:checked+ .in1:after{
+    background-color:blue;
+    border-radius:100%;
+    content:"";
+    position: absolute;
+    left: 27px;
+    top:60px;
+    display:inline-block;
+    height:12px;
+    margin:2px;
+    width:12px
+}
+select{
+    position: absolute;
+    right: 0.1rem;
+    top: 50%;
+    width:100px;
+    color:#999;
+    height:30px;;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(shape.jpg) no-repeat right;
+    padding: 0px 0.4rem 0 0.2rem;
+    background-position: 100% 50%;
+}
+.one span{
+    color:blue;
+}
+@media screen and (max-width: 530px){
+   .phone{
+       font-size:5px;
+   }
+   .head a{
+       font-size:5px;
+   }
+   .box1 button{
+    font-size:5px;
+   }
+   .line1{
+    width:60px;
+    height:2px;
+    background-color:#999;
+    display:inline-block;
+    margin-bottom:4px;
+   }
+   .line2{
+    width:60px;
+    height:2px;
+    background-color:#999;
+    display:inline-block;
+    margin-bottom:4px;
+   }
+   .circle{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color:#999;
+    display:inline-block;
+    text-align: center;
+    line-height: 13px;
+    margin-left:-37.5px;
+}
+   .circle2{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color:#999;
+    display:inline-block;
+    text-align: center;
+    line-height: 13px;
+    margin-left:-37.5px;
+   }
+   .step1 p{
+       font-size:3px;
+   }
+   .step2 p{
+    font-size:3px;
+}
+.step3 p{
+    font-size:3px;
+}
+.step4 p{
+    font-size:3px;
+}
+}
+footer{
+    background-color:#fbfcff;
+    width:100%;
+    margin:0;
+    
+    margin-top:50px;
+}
+.foot4{
+    display:flex;
+    justify-content:space-around;;
+    align-items:center;
+   
+}
+.box4{
+    padding-top:20px;
+}
+.box4 p{
+    padding-bottom:20px;
+}
+.foot span{
+    background-color:#fff;
+    padding-left:1px;
+    height:5px;
+    margin:0 5px;
+}
+.last{
+    text-align:center;
+    background:blue;
+    color:#fff;
+    height:50px;
+}
+.box1 li{
+    list-style: none;
+}
+.phone span{
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    background-color:#999;
+    display:inline-block;
+}
+.box4 a{
+    
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+.qrcode:hover{
+    border:2px solid #999;
+}
+.qrcode{
+    box-sizing: border-box;
+    width:90px;
+}
+.navbar-toggler{
+    margin-right:10%;
+}
+.navbar-nav{
+    margin-left:auto;
+    margin-right:10%;
+}
+.bg-dark{
+    background-color:#29b078!important;
+}
+.nav-link{
+    text-align: center;
 }
