@@ -1,0 +1,173 @@
+$color:white;
+$border:1px solid #ccc;
+body{
+  margin:0;
+}
+header{
+  background-color:#68cdd5;
+  color:$color;
+  width:100%;
+  height:80px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  position: fixed;
+  top:0;
+}
+.header2{
+  display:inline-block;
+}
+.header1{
+  @extend .header2;
+  position:absolute;
+  left:20px;
+}
+
+.doctor{
+  width:100%;
+  height:240px;
+}
+.box1{
+  margin-top:80px;
+  width:100%;
+  height:240px;
+  background-image:url(doctor.png);
+  background-size: cover;
+  display:flex;
+  align-items:center;
+}
+.round{
+  display:inline-block;
+  width:80px;
+  height:80px;
+  background-color:#efefef;
+  border-radius:40px;
+  position:absolute;
+  left:35px;
+  background-image:url(./woman.png);
+  background-size:cover;
+}
+.name{
+  color:$color;
+  display:block;
+}
+.adress{
+  display:inline-block;
+  color:$color;
+}
+.word{
+  position:absolute;
+  left:180px;
+  .adress{
+    font-size:10px;
+  }
+}
+
+.box2{
+  width:100%;
+  height:100px;
+  border-bottom:$border;
+  display:flex;
+  align-items:center;
+}
+.vertical{
+  display:inline-block;
+  width:0;
+  border-left:4px solid #68cdd5;
+  height:40px;
+  margin-left:30px;
+}
+.skills{
+  display:inline-block;
+  margin-left:10px;
+}
+.box3{
+  @extend .box2;
+   img{
+    margin-left:30px;
+  }
+   div{
+    margin-left:5px;
+  }
+}
+
+.box4{
+ @extend .box2;
+}
+.year{
+  color:#cccccc;
+  padding-left:35px;
+  border-right:1px solid #cccccc;
+  padding-right:35px;
+  margin-right: 20px;
+}
+.box5{
+  @extend .box2;
+}
+.box6{
+  @extend .box2;
+   .word1{
+    color:red;
+  }
+}
+
+.box7{
+  border-bottom:$border;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  margin-bottom:80px;
+}
+.item{
+  margin-top:150px;
+  margin-bottom:10px;
+  position:fixed;
+  bottom: 0;
+  width:100%;
+}
+.list{
+  font-size:15px;
+  color:#68cdd5;
+  background-color:white;
+  width:48%;
+  height:50px;
+  padding:0px;
+  margin-top:10px;
+  outline:none;
+  border:2px solid #68cdd5;
+  border-radius: 4px;
+  margin-left:2%;
+  display:inline-block;
+  position: fixed;
+  bottom: 0;
+}
+.phone{
+  font-size:15px;
+  color:$color;
+  background-color:#68cdd5;
+  width:48%;
+  height:50px;
+  padding:0px;
+  margin-top:10px;
+  outline:none;
+  border:2px solid #68cdd5;
+  border-radius: 4px;
+  margin-left:1%;
+  display:inline-block;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
+.year2{
+  color:#cccccc;
+  padding-left:35px;
+  border-right:$border;
+  padding-right:35px;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+.word2{
+  vertical-align: middle;
+  padding-top:15px;
+  padding-bottom:15px;
+}
