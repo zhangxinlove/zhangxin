@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  background-color: #29bde0; }
+
+header {
+  width: 100%;
+  height: 120px;
+  background: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header div {
+    display: inline-block;
+    font-size: 30px;
+    color: white; }
+
+.rectangle {
+  margin-left: 10px; }
+
+.back {
+  margin-right: 10px; }
+
+.tip {
+  width: 100%;
+  height: 100px;
+  background: #b9e9f5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #6a7b7f; }
+  .tip span {
+    margin-left: 50px;
+    font-size: 17px;
+    display: block; }
+  .tip img {
+    margin-right: 5px; }
+
+.tri {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 6rem;
+  left: 10%;
+  border-top: 1.8rem solid #b9e9f5;
+  border-right: 0.9rem solid transparent;
+  border-left: 0.9rem solid transparent; }
+
+p {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 60px;
+  color: white; }
+
+.rectangle1 {
+  width: 20%;
+  height: 20vw;
+  background: #f5c97b;
+  color: #6a7b7f;
+  margin: 6%;
+  display: inline-block;
+  float: left;
+  position: relative;
+  border: 2px white solid; }
+  .rectangle1 .la {
+    width: 100%;
+    height: 25%;
+    background: #83b09a;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white; }
+  .rectangle1 .bot {
+    width: 100%;
+    height: 75%;
+    background: #f5c97b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; }
+    .rectangle1 .bot span {
+      color: #6a7b7f;
+      font-size: 20px;
+      display: block; }
+  .rectangle1 .sent {
+    position: absolute;
+    bottom: -6vw;
+    right: 0;
+    width: 100%; }
+  .rectangle1 .kill {
+    display: none; }
+  .rectangle1 :hover .kill {
+    display: block; }
+
+footer {
+  width: 100%;
+  height: 20vw;
+  background: #29bde0;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+button {
+  width: 70%;
+  height: 10vw;
+  background: orange;
+  font-size: 20px;
+  color: white; }
+
+.box {
+  width: 100%;
+  height: 160vw; }
+
+#music {
+  background: url(orange.png) no-repeat;
+  width: 52px;
+  height: 52px;
+  border: none;
+  list-style-type: none; }
+
+audio {
+  display: none; }
+
+#music {
+  width: 52px;
+  height: 52px;
+  background: url(orange.png);
+  border: none; }
+
+/*# sourceMappingURL=task13-2.css.map */
