@@ -17,7 +17,9 @@ header {
 
 .header1 {
   position: absolute;
-  left: 20px; }
+  left: 20px;
+  color: white;
+  text-decoration: none; }
 
 .doctor {
   width: 100%;

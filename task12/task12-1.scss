@@ -21,6 +21,8 @@ header{
   @extend .header2;
   position:absolute;
   left:20px;
+  color:$color;
+  text-decoration: none;
 }
 
 .doctor{
