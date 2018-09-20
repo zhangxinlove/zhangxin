@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  background-color: #fafafa; }
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 3rem; }
+
+.head span {
+  position: absolute;
+  left: 10%;
+  font-size: 1rem;
+  color: #29b078; }
+
+.head img {
+  position: absolute;
+  right: 10%;
+  width: 10%; }
+
+.head1 {
+  width: 100%;
+  height: 4rem;
+  background-color: #29b078;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid #29b078; }
+
+.navbar-brand {
+  margin-left: 10%;
+  color: white;
+  display: inline-block; }
+
+.nav-link {
+  color: white !important;
+  margin-left: 3rem;
+  text-decoration: none; }
+
+.head1 nav {
+  background-color: #29b078 !important;
+  padding: 0;
+  position: absolute;
+  right: 10%; }
+
+@media screen and (min-width: 768px) {
+  .nav-item:hover .white {
+    display: block; } }
+.white {
+  width: 4rem;
+  height: 0.3rem;
+  display: none;
+  margin-left: 2.5rem;
+  position: absolute;
+  top: 3.1rem; }
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
+.gill {
+  display: inline-block; }
+
+h3 {
+  display: inline-block; }
+
+.content {
+  text-align: center;
+  margin-top: 5rem; }
+
+.content1 {
+  text-align: center;
+  margin-top: 5rem;
+  border-left: 1px  dashed #999; }
+
+@media screen and (max-width: 768px) {
+  .content1 {
+    border: none; } }
+.work {
+  color: #999; }
+
+.number {
+  color: #29b078; }
+
+.content img {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.8rem; }
+
+.study {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+.circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #999;
+  flex-shrink: 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  color: #29b078; }
+
+.content2 {
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+  margin-bottom: 6rem;
+  justify-content: space-between; }
+
+.row {
+  margin: 0;
+  padding: 0; }
+
+.intreduce {
+  margin-left: 5px;
+  color: #999; }
+
+.content3 {
+  text-align: center; }
+
+.box {
+  border: 1px solid #999;
+  width: 100%;
+  padding: 20px 10px; }
+
+.play {
+  text-align: center;
+  margin: 40px 0; }
+
+.carousel-indicators .active {
+  background-color: #29b078; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; }
+
+.carousel-inner img {
+  width: 35%; }
+
+.carousel-inner .image {
+  width: 100%; }
+
+.red {
+  position: absolute;
+  bottom: -60px; }
+
+.content4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  max-width: 180px;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(8, 1, 3, 0.5); }
+
+.col-xs-12 {
+  width: 100%; }
+
+.company {
+  display: flex;
+  justify-content: center; }
+
+.corperation {
+  text-align: center;
+  margin: 100px 0 50px 0; }
+
+.box1 {
+  color: #999;
+  white-space: nowrap;
+  display: flex; }
+
+.box2 {
+  background-color: white;
+  margin-top: 150px; }
+
+h5 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #999; }
+
+.phone a {
+  color: #999; }
+
+footer {
+  background-color: #29b078;
+  width: 100%;
+  margin: 0;
+  color: white; }
+
+.foot4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white; }
+
+.box4 {
+  padding-top: 20px; }
+
+.box4 p {
+  padding-bottom: 20px; }
+
+.foot {
+  display: flex;
+  justify-content: space-between; }
+
+.foot span {
+  background-color: #fff;
+  padding-left: 1px;
+  height: 5px;
+  margin: 0 5px; }
+
+.last {
+  text-align: center; }
+
+.box1 li {
+  list-style: none; }
+
+.phone span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #999;
+  display: inline-block; }
+
+.box4 a {
+  color: #fff; }
+
+ul {
+  list-style: none; }
+
+li {
+  list-style: none; }
+
+.qrcode:hover {
+  border: 2px solid #999; }
+
+.qrcode {
+  box-sizing: border-box;
+  width: 90px; }
+
+.navbar-toggler {
+  margin-right: 10%; }
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 10%; }
+
+.bg-dark {
+  background-color: #29b078 !important; }
+
+.nav-link {
+  text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .white {
+    display: none; } }
+
+/*# sourceMappingURL=task14-1.css.map */
