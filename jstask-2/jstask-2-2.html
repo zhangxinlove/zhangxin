@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jstask-2-2.css">
+</head>
+<body>
+  <header>
+      <div class="little"><strong>&lt</strong></div>
+      <div class="word">参数设置</div>
+      <img src="circled-help.png" alt="">
+  </header>
+  <main>
+      <div class="box">
+      <div class="box1">
+          <ul>
+          <li>玩</li>
+          <li>家</li>
+          <li>配</li>
+          <li>比</li>
+          </ul>
+      </div>
+      <div class="box2">
+          <ul id="player">
+
+          </ul>
+          <button id="role-list" onclick="setPlayNum()">点击设置<img src="pencil.png" alt=""></button>
+      </div>
+      <div class="box3">
+          <input id="words1" type="text" placeholder="水民词组" >
+          <input id="words2" type="text" placeholder="幽灵词组" >
+      </div>
+          <div class="box4">
+              <div class="number">
+                  玩家人数<input type="text" id="players" value="4" onchange="matchNum()">人
+              </div>
+              <div class="image">
+                  <button class="reduce" onclick="reduceNum()"></button>
+                  <input type="range" id="slider" onchange="sliderChange()" value="4" min="4" max="18" step="1">
+                  <button class="increase" onclick="increaseNum()"></button>
+              </div>
+          </div>
+      </div>
+      <button class="push" onclick="sendCard()">
+          去发牌
+      </button>
+      <script src="jstask-2-2.js"></script>
+  </main>
+</body>
+</html>

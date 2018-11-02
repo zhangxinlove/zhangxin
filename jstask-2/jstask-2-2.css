@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0; }
+
+header {
+  background: #29bde0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header div {
+    color: white; }
+  header .little {
+    margin-left: 20px; }
+  header img {
+    margin-right: 20px; }
+
+main {
+  background: #efefef; }
+
+.box {
+  margin: 10px; }
+  .box .box1 {
+    background: white;
+    display: inline-block;
+    width: 10%;
+    height: 300px;
+    border-right: 1px solid #f0f0f0; }
+    .box .box1 li {
+      list-style: none; }
+    .box .box1 ul {
+      margin: 0;
+      padding: 0;
+      margin-top: 100px;
+      margin-left: 35%; }
+  .box .box2 {
+    display: inline-block;
+    width: 87.5%;
+    background: #fbfbfb;
+    height: 300px;
+    position: absolute; }
+    .box .box2 button {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      background: #fbfbfb;
+      border: none;
+      border-top: 1px solid #f0f0f0;
+      color: #29bde0;
+      outline: none; }
+  .box .box3 {
+    width: 100%;
+    height: 150px;
+    background: white;
+    margin-top: 15px; }
+    .box .box3 input {
+      border: none;
+      display: block;
+      width: 100%;
+      height: 40px;
+      outline: none;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 10px 0; }
+  .box .box4 {
+    width: 100%;
+    height: 150px;
+    background: white;
+    margin-top: 15px; }
+    .box .box4 #players {
+      background: #f0f0f0;
+      width: 20px;
+      border: none;
+      outline: none; }
+    .box .box4 .number {
+      padding-top: 10px;
+      margin-left: 20px; }
+      .box .box4 .number input {
+        margin: 0 10px;
+        color: orange; }
+    .box .box4 .image {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between; }
+      .box .box4 .image .reduce {
+        width: 30px;
+        height: 30px;
+        background: url(reduce.png) no-repeat center;
+        border: 1px solid #f0f0f0;
+        outline: none; }
+      .box .box4 .image .increase {
+        width: 30px;
+        height: 30px;
+        background: url(add.png) no-repeat center;
+        border: 1px solid #f0f0f0;
+        border: 1px solid #f0f0f0;
+        outline: none; }
+      .box .box4 .image input {
+        -webkit-appearance: none;
+        display: inline-block;
+        margin: 0 0.2rem;
+        width: 90%;
+        height: 5px;
+        vertical-align: text-top;
+        background-color: #fcc671;
+        margin-top: 14px;
+        outline: none; }
+      .box .box4 .image input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 25px;
+        width: 40px;
+        margin-top: -5px;
+        background: url(squre.png) no-repeat;
+        background-position: center center;
+        border: solid 1px orange;
+        border-radius: 3px; }
+
+.push {
+  width: 98%;
+  height: 50px;
+  background: orange;
+  border-radius: 5px;
+  display: block;
+  margin-left: 1%;
+  color: white;
+  font-size: 15px; }
+
+.list-item-style {
+  display: inline-block;
+  margin: 0 0.1rem 0.04rem calc(50% - 30px);
+  width: 5px;
+  height: 5px;
+  background: #fab344;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=jstask-2-2.css.map */

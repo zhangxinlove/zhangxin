@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jstask-2-3.css">
+</head>
+<body>
+    <header>
+        <img src="back.png" alt="" onclick="backOne()">
+        <div>查看身份</div>
+        <img src="leave.png" alt="">
+    </header>
+    <main>
+      <div class="box">
+        <div class="boxone">
+            <div class="boxtwo">
+                <p class="num" id="num1"></p>
+            </div>
+            <div class="boxthree">
+                <img src="emperor.png" alt="">
+            </div>
+            <div class="boxfour">
+                <img src="wow.png" alt="">
+                <p id="playerifo">角色:
+                    <span class="identify-info"></span>
+                </p>
+                <p id="words">词组：
+                    <span id="words-info"></span>
+                </p>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <button id="btn1" class="btn-checked" onclick="checkIdentity()">查看<span class="num" id="num2">1</span>号身份</button>
+        <button id="btn2" class="btn-send" onclick="sendIdentity()">点击按钮隐藏并传递给<span class="num" id="num3">2</span>号</button>
+        <button id="btn3" onclick="nextPage()">大法官视角</button>
+    </footer>
+    <script src="jstask-2-3.js"></script>
+</body>
+</html>

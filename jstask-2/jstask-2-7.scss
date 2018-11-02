@@ -1,0 +1,146 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+body {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+/* 头部部分 */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height:60px;
+  background-color: #29bde0;
+  border-bottom: 1px solid #74d4eb;
+  div{
+    font-size: 20px;
+    color:#fff;
+  }
+  img{
+    width:20px;
+    height: 20px;
+    margin:0 3%;
+  }
+}
+main {
+  border-top: 1px solid #74d4eb;
+  background-color: #29bde0;
+}
+
+.container1 {
+  flex-direction: column;
+  margin-bottom: 0;
+  padding: 0 20px;
+}
+
+.congratulate-ico1 {
+  margin-left: 33%;
+  margin-top: .11rem;
+  width:200px;
+  height: 200px;
+  background: url(police.png) no-repeat 0 0;
+  background-size: 200px;
+}
+
+.congratulate-ico2 {
+  margin-left: 33%;
+  margin-top: .11rem;
+  width: 200px;
+  height: 200px;
+  background: url(plantedagent.png) no-repeat 0 0;
+  background-size: 200px;
+}
+
+.congratulate {
+  margin-left:50px;
+  font-weight: bold;
+  color: #ffc865;
+  text-align: left;
+}
+
+
+/* 游戏信息 */
+
+.game-info {
+  margin-left:50px;
+  color: #fff;
+}
+
+.game-info1>li {
+  line-height: 1.5;
+}
+
+.identify-info {
+  overflow: hidden;
+}
+
+.game-info1 div {
+  float: left;
+  margin-right: .15rem;
+}
+
+.game-info1 div i {
+  display: inline-block;
+  width: .1rem;
+  height: .1rem;
+}
+
+
+/* 游戏日志 */
+
+.journal {
+  margin-left: 70px;
+  color: #fff;
+  background-color: #29bde0;
+  margin-bottom:90px;
+}
+
+.journal p {
+  margin-bottom: 0;
+}
+
+.diary-journal {
+  margin: .1rem 0 0 0;
+}
+
+
+/* 底部按钮 */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(153, 223, 240, 0.5)
+}
+
+footer button {
+  width: 42%;
+  height: 50px;
+  font-size: .2rem;
+  color: #fff;
+  cursor: pointer;
+  border:none;
+  outline:none;
+  border-radius: 5px;
+}
+
+.again {
+  margin-right: .25rem;
+  background: #f66f6f;
+}
+
+.share {
+  background: #fbb435;
+}
