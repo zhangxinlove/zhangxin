@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <style>
+        .left {
+            text-align: left;
+        }
+        .red {
+            color: #323232;
+        }
+    </style>
+
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' : 'https://ptteng.github.io/PPT/css/reveal/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<img src="./img/demo/logo.png" alt="" usemap="#pttmap" class="base-logo">
+<map name="pttmap">
+    <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com/" alt="" target="_blank">
+</map>
+<div class="reveal default center" role="application" data-transition-speed="slow" data-background-transition="fade">
+    <div class="slides"
+         style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.756);">
+        <section class="past" style="top: 158px; display: none;" hidden="" aria-hidden="true">
+            <h2>【JS-task-8】</h2>
+            <h3>简述angular 中constant和$filter的用法？
+            </h3>
+            <p>分享人：张新</p>
+        </section>
+        <section class="past" style="top: 3px; display: block;" hidden="" aria-hidden="true">
+            <p>目录</p>
+            <p>1.背景介绍</p>
+            <p>2.知识剖析</p>
+            <p>3.常见问题</p>
+            <p>4.解决方案</p>
+            <p>5.编码实战</p>
+            <p>6.扩展思考</p>
+            <p>7.参考文献</p>
+            <p>8.更多讨论</p>
+        </section>
+        <section>
+            <h3>1.背景介绍</h3>
+        </section>
+        <section>
+            <p class="left">
+                <p>AngularJS 最初由Misko Hevery和AdamAbrons于2009年开发，后来成为了Google公司的项目。AngularJS弥补了HTML在构建应用方面的不足，其通过使用标识符（directives）结构，来扩展Web应用中的HTML词汇，使开发者可以使用HTML来声明动态内容，从而使得Web开发和测试工作变得更加容易。</p>
+                <p>constant，可以算作angular的全局数据，想要使用的话，只需要在控制器注入即可。</p>
+                <p>$filter，angular的过滤器，如果想要在控制器里面使用，也是注入，然后调用，而html中的数据过滤，直接键入过滤器名称和对应值即可。</p>
+            </p>
+        </section>
+        <section>
+            <h3>2.知识剖析</h3>
+        </section>
+        <section>
+            定义全局变量的三种方法
+        </section>
+        <section>
+           第一种是通过var直接定义全局变量
+        </section>
+        <section>
+           第二种是通过constant来设置全局变量
+        </section>
+        <section>
+           第三种是通过value来设置全局变量
+        </section>
+        <section>
+            constant和value的区别
+        </section>
+        <section>
+           constant可以在config中注入,但是value不可以
+        </section>
+        <section>
+          value可以修改但是constant不可以修改
+        </section>
+        <section>
+            $filter过滤器
+        </section>
+        <section>
+            过滤器主要是用来格式化数据使用的
+        </section>
+        <section>
+            基本原型<br>
+            {{expression|filter}}<br>
+            多个filter连用的版本<br>
+            {{expression|filter1|filter}}<br>
+            传入参数版<br>
+            {{expression | filter:1:2}}
+        </section>
+        <section>
+            $filter内置过滤器
+        </section>
+        <section>
+            ng内置了9种过滤器，分别是：currency(货币)、date(日期)、filter(子串匹配)、json(格式化json对象)、limitTo(限制个数)、lowercase(小写)、uppercase(大写)、number(数字)、orderBy(排序)。
+        </section>
+        <section>
+            <h3>3.常见问题</h3>
+        </section>
+        <section>
+            <p>
+                如何使用constant和$filter?
+            </p>
+        </section>
+        <section>
+            <h3>4.解决方案</h3>
+        </section>
+        <section>
+            <h3>5.编码实战</h3>
+        </section>
+        <section>
+            <h3>6.扩展思考</h3>
+            如何自定义过滤器
+        </section>
+        <section>
+            <h3>7.参考文献</h3>
+        </section>
+        <section class="left">
+           <p>angularjs自定义过滤器示例 </p>
+           <p>angularjs三种定义全局变量的方法 </p>
+           <p>angularjs内置9种过滤器 </p>
+        </section>
+        <section>
+            <h3>8.更多讨论</h3>
+        </section>
+        <section>
+            <p>讨论一：如何获取angular通过过滤器过滤后的数据</p>
+            <p>
+                在module里面去取<br>
+                angular.module('tset', ['$filter', function($filter){<br>
+                    var a = 10;<br>
+                    var b = $filter('currency')(a, '￥');<br>
+                }])
+            </p>
+        </section>
+        <section>
+            <p>讨论二：constant和value用法上的区别</p>
+            <p>Constant可以注入config，value不可以。除此之外，constant和value定义全局变量时的用法是相同的，constant的值也是可以改变的，但是我们认为规定定义constant全局变量之后当做一个常量来使用，在之后的操作中不更改constant的值，认为设置了constant值可以改变，value值可以改变的设定。在之后的学习工作中也尽量遵守这一规则。</p>
+        </section>
+        <section>
+            <p>讨论三：为什么angular的过滤器要采用闭包的形式？目的是什么</p>
+            <p>app.filter 这种函数回掉的机制是由于异步
+                    而采用闭包就是为了不污染全局变量的情况下，保存数据（从js角度出发，angular有可能是为了实现数据双向绑定（需要保存数据），又不制造过多的全局变量）。</p>
+        </section>
+        <section>
+            <p>感谢大家观看</p>
+            <p><small>BY : 张新</small></p>
+        </section>
+    </div>
+</div>
+
+<script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+<script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+
+<script>
+    // 以下为常见配置属性的默认值
+    // {
+    // 	controls: true, // 是否在右下角展示控制条
+    // 	progress: true, // 是否显示演示的进度条
+    // 	slideNumber: false, // 是否显示当前幻灯片的页数编号，也可以使用代码slideNumber: 'c / t' ，表示当前页/总页数。
+    // 	history: false, // 是否将每个幻灯片改变加入到浏览器的历史记录中去
+    // 	keyboard: true, // 是否启用键盘快捷键来导航
+    // 	overview: true, // 是否启用幻灯片的概览模式，可使用"Esc"或"o"键来切换概览模式
+    // 	center: true, // 是否将幻灯片垂直居中
+    // 	touch: true, // 是否在触屏设备上启用触摸滑动切换
+    // 	loop: false, // 是否循环演示
+    // 	rtl: false, // 是否将演示的方向变成RTL，即从右往左
+    // 	fragments: true, // 全局开启和关闭碎片。
+    // 	autoSlide: 0, // 两个幻灯片之间自动切换的时间间隔（毫秒），当设置成 0 的时候则禁止自动切换，该值可以被幻灯片上的 ` data-autoslide` 属性覆盖
+    // 	transition: 'default', // 切换过渡效果，有none/fade/slide/convex/concave/zoom
+    // 	transitionSpeed: 'default', // 过渡速度，default/fast/slow
+    // 	mouseWheel: true, //是否启用通过鼠标滚轮来切换幻灯片
+    // }
+    // 初始化幻灯片
+    Reveal.initialize({
+//        history: true,
+        transition: 'default',
+        transitionSpeed: 'slow',
+        dependencies: [
+            {src: '../plugin/markdown/marked.js'},
+            {src: '../plugin/markdown/markdown.js'},
+            {src: '../plugin/notes/notes.js', async: true},
+            {
+                src: '../plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status He
